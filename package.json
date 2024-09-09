@@ -1,36 +1,21 @@
 {
-    "name": "chat-socket",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
+  "name": "chat-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
       "dev": "nodemon server.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/avoup/webrtc-video-conference.git"
-    },
-    "keywords": [
-      "webrtc",
-      "sample",
-      "example",
-      "video",
-      "conference",
-      "tutorial"
-    ],
-    "author": "avoup",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/avoup/webrtc-video-conference/issues"
-    },
-    "homepage": "https://github.com/avoup/webrtc-video-conference#readme",
-    "optionalDependencies": {
-      "nodemon": "^2.0.12"
-    },
-    "dependencies": {
-      "express": "^4.17.1",
-      "socket.io": "^4.1.3"
-    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "express": "^4.19.2",
+      "socket.io": "^4.7.5",
+      "ws": "^8.13.0"
+  },
+  "devDependencies": {
+      "nodemon": "^2.0.21"
   }
+}
